@@ -1,4 +1,3 @@
-# encoding: utf-8
 # TODO: 
 # -- Add hook and info level logging if request generates warning
 # -- Add support for FindHalfProducts, FindPopularSearches, FindProducts, FindReviewsAndGuides, GetCategoryInfo, GeteBayTime, GetItemStatus, GetShippingCosts, GetUserProfile
@@ -363,7 +362,7 @@ module EbayShopping
     attr_reader :currency_id, :content
     CURRENCY_SYMBOLS = {"AUD" => "AU$",
                         "CAD" => "CA$",
-                        "GBP" => "£",
+                        "GBP" => "\u00A3",
                         "USD" => "$"}
     
     def initialize(currency_hash)
