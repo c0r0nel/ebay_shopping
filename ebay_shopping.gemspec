@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
 
   s.name = 'ebay_shopping'
-  s.version = "0.1.1"
+  s.version = "0.1.2"
   s.summary = %q{A Ruby library for Ebay's Shopping API. By Chris Taggart}
   s.description = %q{The ebay_shopping gem is a Ruby library for Ebay's Shopping API (http://developer.ebay.com/products/shopping/).}
   s.authors = ["Chris Taggart"]
