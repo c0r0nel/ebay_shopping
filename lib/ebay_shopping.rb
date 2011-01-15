@@ -1,3 +1,4 @@
+# encoding: utf-8
 # TODO: 
 # -- Add hook and info level logging if request generates warning
 # -- Add support for FindHalfProducts, FindPopularSearches, FindProducts, FindReviewsAndGuides, GetCategoryInfo, GeteBayTime, GetItemStatus, GetShippingCosts, GetUserProfile
